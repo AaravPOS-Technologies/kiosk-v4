@@ -1,0 +1,765 @@
+{
+    "superCategories": [
+        {
+            "id": "men",
+            "name": "Men",
+            "subtitle": "3 Sub Categories",
+            "icon": null,
+            "subCategories": [
+                "Hair Cut",
+                "Beard",
+                "Facial"
+            ]
+        },
+        {
+            "id": "women",
+            "name": "Women",
+            "subtitle": "4 Sub Categories",
+            "icon": null,
+            "subCategories": [
+                "Hair Cut",
+                "Hair Color",
+                "Hair Styling",
+                "Hair Treatment"
+            ]
+        },
+        {
+            "id": "hair",
+            "name": "Hair",
+            "subtitle": "3 Sub Categories",
+            "icon": null,
+            "subCategories": [
+                "Hair Cut",
+                "Hair Color",
+                "Hair Treatment"
+            ]
+        },
+        {
+            "id": "nail",
+            "name": "Nail",
+            "subtitle": "4 Sub Categories",
+            "icon": null,
+            "subCategories": [
+                "Manicure",
+                "Pedicure",
+                "Nail Art",
+                "Nail Extension"
+            ]
+        }
+    ],
+    "standaloneCategories": [
+        {
+            "id": "facial",
+            "name": "Facial",
+            "subtitle": "3 Services",
+            "services": []
+        },
+        {
+            "id": "wax",
+            "name": "Wax",
+            "subtitle": "4 Services",
+            "services": []
+        },
+        {
+            "id": "massage",
+            "name": "Massage",
+            "subtitle": "3 Services",
+            "services": []
+        }
+    ],
+    "serviceGroups": [
+        {
+            "id": "men_hair_cut",
+            "categoryId": "men",
+            "name": "Hair Cut",
+            "count": 6,
+            "expanded": true,
+            "services": [
+                {
+                    "id": "men_haircut",
+                    "name": "Haircut",
+                    "duration": "45 - 60 min",
+                    "price": 40,
+                    "maxPrice": 50,
+                    "priceLabel": "$40 - $50",
+                    "selected": true
+                },
+                {
+                    "id": "men_haircut_beard",
+                    "name": "Haircut & Beard Cut",
+                    "duration": "45 - 60 min",
+                    "price": 40,
+                    "maxPrice": 50,
+                    "priceLabel": "$40 - $50",
+                    "selected": false
+                },
+                {
+                    "id": "men_beard_trim",
+                    "name": "Beard Trim",
+                    "duration": "45 - 60 min",
+                    "price": 40,
+                    "maxPrice": 50,
+                    "priceLabel": "$40 - $50",
+                    "selected": false
+                },
+                {
+                    "id": "men_hair_trim",
+                    "name": "Hair Trim",
+                    "duration": "45 - 60 min",
+                    "price": 40,
+                    "maxPrice": 50,
+                    "priceLabel": "$40 - $50",
+                    "selected": false
+                },
+                {
+                    "id": "men_hair_color",
+                    "name": "Hair Color",
+                    "duration": "45 - 60 min",
+                    "price": 40,
+                    "maxPrice": 50,
+                    "priceLabel": "$40 - $50",
+                    "selected": false
+                },
+                {
+                    "id": "men_hair_wash",
+                    "name": "Hair Wash",
+                    "duration": "60 min",
+                    "price": 40,
+                    "maxPrice": 40,
+                    "priceLabel": "$40",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "men_beard",
+            "categoryId": "men",
+            "name": "Beard",
+            "count": 3,
+            "expanded": false,
+            "services": [
+                {
+                    "id": "men_beard_sculpting",
+                    "name": "Beard Sculpting",
+                    "duration": "30 min",
+                    "price": 25,
+                    "maxPrice": 35,
+                    "priceLabel": "$25 - $35",
+                    "selected": false
+                },
+                {
+                    "id": "men_hot_towel_shave",
+                    "name": "Hot Towel Shave",
+                    "duration": "45 min",
+                    "price": 35,
+                    "maxPrice": 45,
+                    "priceLabel": "$35 - $45",
+                    "selected": false
+                },
+                {
+                    "id": "men_mustache_trim",
+                    "name": "Mustache Trim",
+                    "duration": "15 min",
+                    "price": 15,
+                    "maxPrice": 20,
+                    "priceLabel": "$15 - $20",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "men_facial",
+            "categoryId": "men",
+            "name": "Facial",
+            "count": 3,
+            "expanded": false,
+            "services": [
+                {
+                    "id": "men_express_facial",
+                    "name": "Men's Express Facial",
+                    "duration": "30 min",
+                    "price": 40,
+                    "maxPrice": 50,
+                    "priceLabel": "$40 - $50",
+                    "selected": false
+                },
+                {
+                    "id": "men_deep_cleanse",
+                    "name": "Deep Cleanse Facial",
+                    "duration": "45 min",
+                    "price": 50,
+                    "maxPrice": 65,
+                    "priceLabel": "$50 - $65",
+                    "selected": false
+                },
+                {
+                    "id": "men_beard_skin_care",
+                    "name": "Beard & Skin Therapy",
+                    "duration": "45 min",
+                    "price": 45,
+                    "maxPrice": 60,
+                    "priceLabel": "$45 - $60",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "women_hair_cut",
+            "categoryId": "women",
+            "name": "Hair Cut",
+            "count": 4,
+            "expanded": true,
+            "services": [
+                {
+                    "id": "women_haircut_style",
+                    "name": "Women's Cut & Style",
+                    "duration": "60 min",
+                    "price": 50,
+                    "maxPrice": 70,
+                    "priceLabel": "$50 - $70",
+                    "selected": false
+                },
+                {
+                    "id": "women_blowout",
+                    "name": "Blowout & Style",
+                    "duration": "45 min",
+                    "price": 40,
+                    "maxPrice": 55,
+                    "priceLabel": "$40 - $55",
+                    "selected": false
+                },
+                {
+                    "id": "women_bang_trim",
+                    "name": "Bang Trim",
+                    "duration": "15 min",
+                    "price": 15,
+                    "maxPrice": 20,
+                    "priceLabel": "$15 - $20",
+                    "selected": false
+                },
+                {
+                    "id": "women_layers_cut",
+                    "name": "Layers Cut & Finish",
+                    "duration": "60 min",
+                    "price": 55,
+                    "maxPrice": 75,
+                    "priceLabel": "$55 - $75",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "women_hair_color",
+            "categoryId": "women",
+            "name": "Hair Color",
+            "count": 4,
+            "expanded": false,
+            "services": [
+                {
+                    "id": "women_balayage",
+                    "name": "Balayage",
+                    "duration": "120 min",
+                    "price": 150,
+                    "maxPrice": 200,
+                    "priceLabel": "$150 - $200",
+                    "selected": false
+                },
+                {
+                    "id": "women_full_highlights",
+                    "name": "Full Highlights",
+                    "duration": "90 min",
+                    "price": 120,
+                    "maxPrice": 160,
+                    "priceLabel": "$120 - $160",
+                    "selected": false
+                },
+                {
+                    "id": "women_root_touchup",
+                    "name": "Root Touch-Up",
+                    "duration": "60 min",
+                    "price": 60,
+                    "maxPrice": 80,
+                    "priceLabel": "$60 - $80",
+                    "selected": false
+                },
+                {
+                    "id": "women_gloss_toner",
+                    "name": "Gloss & Toner",
+                    "duration": "45 min",
+                    "price": 45,
+                    "maxPrice": 60,
+                    "priceLabel": "$45 - $60",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "women_hair_styling",
+            "categoryId": "women",
+            "name": "Hair Styling",
+            "count": 3,
+            "expanded": false,
+            "services": [
+                {
+                    "id": "women_bridal_styling",
+                    "name": "Bridal Styling",
+                    "duration": "90 min",
+                    "price": 100,
+                    "maxPrice": 150,
+                    "priceLabel": "$100 - $150",
+                    "selected": false
+                },
+                {
+                    "id": "women_updo",
+                    "name": "Special Occasion Updo",
+                    "duration": "60 min",
+                    "price": 75,
+                    "maxPrice": 100,
+                    "priceLabel": "$75 - $100",
+                    "selected": false
+                },
+                {
+                    "id": "women_curling",
+                    "name": "Beach Waves & Curling",
+                    "duration": "45 min",
+                    "price": 50,
+                    "maxPrice": 70,
+                    "priceLabel": "$50 - $70",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "women_hair_treatment",
+            "categoryId": "women",
+            "name": "Hair Treatment",
+            "count": 3,
+            "expanded": false,
+            "services": [
+                {
+                    "id": "women_keratin",
+                    "name": "Keratin Smoothing Treatment",
+                    "duration": "120 min",
+                    "price": 180,
+                    "maxPrice": 250,
+                    "priceLabel": "$180 - $250",
+                    "selected": false
+                },
+                {
+                    "id": "women_deep_conditioning",
+                    "name": "Deep Conditioning Mask",
+                    "duration": "30 min",
+                    "price": 35,
+                    "maxPrice": 50,
+                    "priceLabel": "$35 - $50",
+                    "selected": false
+                },
+                {
+                    "id": "women_scalp_detox",
+                    "name": "Scalp Detox Treatment",
+                    "duration": "45 min",
+                    "price": 45,
+                    "maxPrice": 65,
+                    "priceLabel": "$45 - $65",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "hair_cut_cat",
+            "categoryId": "hair",
+            "name": "Hair Cut",
+            "count": 6,
+            "expanded": true,
+            "services": [
+                {
+                    "id": "hair_classic_cut",
+                    "name": "Haircut",
+                    "duration": "45 - 60 min",
+                    "price": 40,
+                    "maxPrice": 50,
+                    "priceLabel": "$40 - $50",
+                    "selected": false
+                },
+                {
+                    "id": "hair_fade_cut",
+                    "name": "Haircut & Beard Cut",
+                    "duration": "45 - 60 min",
+                    "price": 40,
+                    "maxPrice": 50,
+                    "priceLabel": "$40 - $50",
+                    "selected": false
+                },
+                {
+                    "id": "hair_trim_only",
+                    "name": "Beard Trim",
+                    "duration": "45 - 60 min",
+                    "price": 40,
+                    "maxPrice": 50,
+                    "priceLabel": "$40 - $50",
+                    "selected": false
+                },
+                {
+                    "id": "hair_trim_service",
+                    "name": "Hair Trim",
+                    "duration": "45 - 60 min",
+                    "price": 40,
+                    "maxPrice": 50,
+                    "priceLabel": "$40 - $50",
+                    "selected": false
+                },
+                {
+                    "id": "hair_color_service",
+                    "name": "Hair Color",
+                    "duration": "45 - 60 min",
+                    "price": 40,
+                    "maxPrice": 50,
+                    "priceLabel": "$40 - $50",
+                    "selected": false
+                },
+                {
+                    "id": "hair_wash_service",
+                    "name": "Hair Wash",
+                    "duration": "60 min",
+                    "price": 40,
+                    "maxPrice": 40,
+                    "priceLabel": "$40",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "hair_color_cat",
+            "categoryId": "hair",
+            "name": "Hair Color",
+            "count": 3,
+            "expanded": false,
+            "services": [
+                {
+                    "id": "hair_full_color",
+                    "name": "Full Hair Color",
+                    "duration": "90 min",
+                    "price": 80,
+                    "maxPrice": 110,
+                    "priceLabel": "$80 - $110",
+                    "selected": false
+                },
+                {
+                    "id": "hair_highlights",
+                    "name": "Highlights",
+                    "duration": "75 min",
+                    "price": 90,
+                    "maxPrice": 130,
+                    "priceLabel": "$90 - $130",
+                    "selected": false
+                },
+                {
+                    "id": "hair_bleach",
+                    "name": "Bleach & Tone",
+                    "duration": "100 min",
+                    "price": 100,
+                    "maxPrice": 140,
+                    "priceLabel": "$100 - $140",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "hair_treatment_cat",
+            "categoryId": "hair",
+            "name": "Hair Treatment",
+            "count": 3,
+            "expanded": false,
+            "services": [
+                {
+                    "id": "hair_keratin",
+                    "name": "Keratin Complex Treatment",
+                    "duration": "90 min",
+                    "price": 140,
+                    "maxPrice": 190,
+                    "priceLabel": "$140 - $190",
+                    "selected": false
+                },
+                {
+                    "id": "hair_protein",
+                    "name": "Protein Hair Repair",
+                    "duration": "45 min",
+                    "price": 45,
+                    "maxPrice": 60,
+                    "priceLabel": "$45 - $60",
+                    "selected": false
+                },
+                {
+                    "id": "hair_olaplex",
+                    "name": "Olaplex Bonding Treatment",
+                    "duration": "40 min",
+                    "price": 50,
+                    "maxPrice": 70,
+                    "priceLabel": "$50 - $70",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "nail_manicure",
+            "categoryId": "nail",
+            "name": "Manicure",
+            "count": 3,
+            "expanded": true,
+            "services": [
+                {
+                    "id": "nail_classic_mani",
+                    "name": "Classic Manicure",
+                    "duration": "45 min",
+                    "price": 30,
+                    "maxPrice": 40,
+                    "priceLabel": "$30 - $40",
+                    "selected": false
+                },
+                {
+                    "id": "nail_gel_mani",
+                    "name": "Gel Manicure",
+                    "duration": "50 min",
+                    "price": 40,
+                    "maxPrice": 50,
+                    "priceLabel": "$40 - $50",
+                    "selected": false
+                },
+                {
+                    "id": "nail_spa_mani",
+                    "name": "Spa Deluxe Manicure",
+                    "duration": "60 min",
+                    "price": 45,
+                    "maxPrice": 60,
+                    "priceLabel": "$45 - $60",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "nail_pedicure",
+            "categoryId": "nail",
+            "name": "Pedicure",
+            "count": 3,
+            "expanded": false,
+            "services": [
+                {
+                    "id": "nail_classic_pedi",
+                    "name": "Classic Pedicure",
+                    "duration": "45 min",
+                    "price": 35,
+                    "maxPrice": 45,
+                    "priceLabel": "$35 - $45",
+                    "selected": false
+                },
+                {
+                    "id": "nail_gel_pedi",
+                    "name": "Gel Pedicure",
+                    "duration": "60 min",
+                    "price": 50,
+                    "maxPrice": 65,
+                    "priceLabel": "$50 - $65",
+                    "selected": false
+                },
+                {
+                    "id": "nail_spa_pedi",
+                    "name": "Deluxe Foot Spa Pedicure",
+                    "duration": "60 min",
+                    "price": 60,
+                    "maxPrice": 75,
+                    "priceLabel": "$60 - $75",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "nail_art",
+            "categoryId": "nail",
+            "name": "Nail Art",
+            "count": 3,
+            "expanded": false,
+            "services": [
+                {
+                    "id": "nail_custom_art",
+                    "name": "Custom Nail Art",
+                    "duration": "30 min",
+                    "price": 20,
+                    "maxPrice": 30,
+                    "priceLabel": "$20 - $30",
+                    "selected": false
+                },
+                {
+                    "id": "nail_french_tips",
+                    "name": "French Tips",
+                    "duration": "20 min",
+                    "price": 15,
+                    "maxPrice": 25,
+                    "priceLabel": "$15 - $25",
+                    "selected": false
+                },
+                {
+                    "id": "nail_chrome_finish",
+                    "name": "Chrome / Holographic Finish",
+                    "duration": "25 min",
+                    "price": 20,
+                    "maxPrice": 30,
+                    "priceLabel": "$20 - $30",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "nail_extension",
+            "categoryId": "nail",
+            "name": "Nail Extension",
+            "count": 3,
+            "expanded": false,
+            "services": [
+                {
+                    "id": "nail_acrylic_full",
+                    "name": "Acrylic Full Set",
+                    "duration": "75 min",
+                    "price": 55,
+                    "maxPrice": 75,
+                    "priceLabel": "$55 - $75",
+                    "selected": false
+                },
+                {
+                    "id": "nail_gel_extension",
+                    "name": "Gel-X Extensions",
+                    "duration": "75 min",
+                    "price": 65,
+                    "maxPrice": 85,
+                    "priceLabel": "$65 - $85",
+                    "selected": false
+                },
+                {
+                    "id": "nail_fill_in",
+                    "name": "Nail Fill-In & Repair",
+                    "duration": "45 min",
+                    "price": 35,
+                    "maxPrice": 50,
+                    "priceLabel": "$35 - $50",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "standalone_facial",
+            "categoryId": "facial",
+            "name": "Facial",
+            "count": 3,
+            "expanded": true,
+            "services": [
+                {
+                    "id": "facial_classic",
+                    "name": "Classic European Facial",
+                    "duration": "50 min",
+                    "price": 50,
+                    "maxPrice": 65,
+                    "priceLabel": "$50 - $65",
+                    "selected": false
+                },
+                {
+                    "id": "facial_hydrating",
+                    "name": "Hydra Glow Facial",
+                    "duration": "60 min",
+                    "price": 65,
+                    "maxPrice": 85,
+                    "priceLabel": "$65 - $85",
+                    "selected": false
+                },
+                {
+                    "id": "facial_anti_aging",
+                    "name": "Collagen Anti-Aging Facial",
+                    "duration": "60 min",
+                    "price": 75,
+                    "maxPrice": 95,
+                    "priceLabel": "$75 - $95",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "standalone_wax",
+            "categoryId": "wax",
+            "name": "Wax",
+            "count": 4,
+            "expanded": true,
+            "services": [
+                {
+                    "id": "wax_eyebrow",
+                    "name": "Eyebrow Wax & Shape",
+                    "duration": "15 min",
+                    "price": 15,
+                    "maxPrice": 20,
+                    "priceLabel": "$15 - $20",
+                    "selected": false
+                },
+                {
+                    "id": "wax_full_face",
+                    "name": "Full Face Wax",
+                    "duration": "30 min",
+                    "price": 35,
+                    "maxPrice": 45,
+                    "priceLabel": "$35 - $45",
+                    "selected": false
+                },
+                {
+                    "id": "wax_full_arms",
+                    "name": "Full Arms Wax",
+                    "duration": "40 min",
+                    "price": 40,
+                    "maxPrice": 55,
+                    "priceLabel": "$40 - $55",
+                    "selected": false
+                },
+                {
+                    "id": "wax_full_legs",
+                    "name": "Full Legs Wax",
+                    "duration": "50 min",
+                    "price": 55,
+                    "maxPrice": 75,
+                    "priceLabel": "$55 - $75",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "standalone_massage",
+            "categoryId": "massage",
+            "name": "Massage",
+            "count": 3,
+            "expanded": true,
+            "services": [
+                {
+                    "id": "body_massage",
+                    "name": "Body Massage",
+                    "duration": "60 min",
+                    "price": 50,
+                    "maxPrice": 70,
+                    "priceLabel": "$50 - $70",
+                    "selected": false
+                },
+                {
+                    "id": "head_massage",
+                    "name": "Head Massage",
+                    "duration": "30 min",
+                    "price": 20,
+                    "maxPrice": 30,
+                    "priceLabel": "$20 - $30",
+                    "selected": false
+                },
+                {
+                    "id": "foot_massage",
+                    "name": "Foot Massage",
+                    "duration": "30 min",
+                    "price": 25,
+                    "maxPrice": 35,
+                    "priceLabel": "$25 - $35",
+                    "selected": false
+                }
+            ]
+        }
+    ]
+}

@@ -12,4 +12,24 @@ class ServiceProfessionalModel {
     this.availability,
     this.isAvailable = true,
   });
+
+  factory ServiceProfessionalModel.fromJson(Map<String, dynamic> json) {
+    return ServiceProfessionalModel(
+      id: json['id'] as int? ?? 0,
+      name: json['name'] as String? ?? '',
+      image: json['image'] as String?,
+      availability: json['availability'] as String?,
+      isAvailable: json['isAvailable'] as bool? ?? true,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'name': name,
+      'image': image,
+      'availability': availability,
+      'isAvailable': isAvailable,
+    };
+  }
 }

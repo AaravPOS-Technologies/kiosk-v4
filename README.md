@@ -1,4 +1,4 @@
-# 📋 Flutter Practical Assessment - Submission Report
+# 📋 Flutter Practical Assessment 
 
 > **Candidate / Branch:** `anand_practicle_task`  
 > **Environment:** Flutter `3.41.3` • Dart `3.11.1` • `flutter_bloc` `9.1.1`
@@ -75,7 +75,7 @@ lib/
 
 1. **Clone the branch:**
    ```bash
-   git clone -b anand_practicle_task <repository-url>
+   git clone -b anand_practicle_task https://github.com/AaravPOS-Technologies/kiosk-v4.git
    cd kiosk-app-v4-assigment
    ```
 
